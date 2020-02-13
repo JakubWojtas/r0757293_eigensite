@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:500" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1><img src="img/logo.png" height="125" width="275" alt="Spies bvba"/></h1>
+    <img class="icon" src="img/Skärmavbild 2017-05-29 kl. 16.33.08.png" height="75" width="132"/>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="installaties.html">Installaties</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <section class="contactInfo">
+            <article class="gegevens">
+                <h2>Gegevens</h2>
+                <p>Organisatie: Spies bvba</p>
+                <p>Contactpersoon: Tim Vanden Panhuyzen</p>
+                <p>Functie: Zaakvoerder</p>
+                <p>Telefoonnummer: 0496/ 36 86 12</p>
+                <p>E-mail: Spiesbvba@telenet.be</p>
+                <p>Adres: Statiestraat 69 3200 Aarschot</p>
+            </article>
+            <article>
+                <h2>Contact</h2>
+                <form class="forum ">
+                    <p>
+                    <label>Voornaam:</label>
+                    <input type="text" name="Voornaam" style="width:85%" placeholder="Uw voornaam..."oninvalid="this.setCustomValidity('U heeft geen voornaam ingevuld!')" required>
+                    </p>
+                    <p>
+                    <label>Naam:</label>
+                    <input type="text" name="Naam" style="width:85%" placeholder="Uw naam..." oninvalid="this.setCustomValidity('U heeft geen naam ingevuld!')" required>
+                    </p>
+                    <p>
+                    <label>E-mail:</label>
+                    <input type="email" name="E-mail" style="width:85%" placeholder="Uw e-mail..." oninvalid="this.setCustomValidity('U heeft geen geldig e-mail ingevuld!')" required>
+                    </p>
+                    <p>
+                    <label>Beschrijving:</label>
+                    <textarea name="Beschrijving" style="width:85%; height: 9rem" placeholder="Schrijf hier..." oninvalid="this.setCustomValidity('U heeft geen beschrijving ingevuld!!')" required></textarea>
+                    </p>
+                    <input type="submit" value="Verzenden">
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <address>Statiestraat 69 3200 Aarschot</address>
+        <address>0496/ 36 86 12</address>
+        <address>Spiesbvba@telenet.be</address>
+    </footer>
+</body>
+</html>
